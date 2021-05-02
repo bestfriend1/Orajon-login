@@ -1,0 +1,95 @@
+@media(max-width:998px){
+    .login-details{
+        width: 100%;
+    }
+    
+}
+@media(max-width:925px){
+    .login-details-start{
+        width: 95%;
+    }
+}
+@media(max-width:850px){
+    .login-form{
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .login-details{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 30vh;
+}
+.other-login ul li{
+    margin-right: 10px;
+}
+}
+@media(max-width:450px){
+    .login-title-left{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .login-title-right{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align:left;
+    }
+    .login-form{
+        width: 100%;
+    }
+    .login-area{
+        margin-bottom: 0px;
+    }
+    .login-details{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 20vh;
+}
+}
+
+
+/*footer-area*/
+
+@media(max-width:991px){
+    .footer-details{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 0px 50px;
+    }
+    }
+    @media(max-width:726px){
+        .footer-details{
+            grid-template-columns: 1.5fr;
+            grid-row-gap: 20px;
+        }
+    }
+    
+    @media(max-width:991px){
+        .footer-bottom-section{
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 0px 50px;
+        }
+        }
+    @media(max-width:756px){
+            .footer-bottom-section{
+                grid-template-columns:1fr;
+     }
+     .email{
+         order: 1;
+         padding: 20px 20px;
+         max-width: 500px;
+     }
+     .we-accept{
+         order: 0;
+         margin-bottom: 30px;
+     }
+     .input-email button{
+         position: static;
+         border-radius: 50px;
+         display: block;
+         text-align: center;
+         width: 100%;
+         margin-top: 10px;
+     }
+     .email-img{
+         display: none;
+     }
+    }

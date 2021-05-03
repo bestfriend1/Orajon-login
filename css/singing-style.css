@@ -281,7 +281,9 @@ img{
 .login-google:hover span{
 	color: #fff;
 }
-
+.login-form form input:focus{
+	border-color: #06b487;
+}
 
 
 /*footer-area*/
